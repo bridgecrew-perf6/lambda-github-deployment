@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/gunaperumal/lambda-github-deployment/issues"
   },
-  "homepage": "https://github.com/gunaperumal/lambda-github-deployment#readme"
+  "homepage": "https://github.com/gunaperumal/lambda-github-deployment#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1072.0",
+    "axios": "^0.25.0",
+    "bcryptjs": "^2.4.3",
+    "chargebee": "^2.9.0",
+    "joi": "^17.6.0",
+    "mongoose": "^6.2.1"
+  }
 }
