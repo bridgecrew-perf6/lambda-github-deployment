@@ -1,0 +1,22 @@
+{
+  "name": "storefriesguna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunaperumal/lambda-github-deployment.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "guna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunaperumal/lambda-github-deployment/issues"
+  },
+  "homepage": "https://github.com/gunaperumal/lambda-github-deployment#readme"
+}
