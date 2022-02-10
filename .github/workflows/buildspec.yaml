@@ -16,7 +16,7 @@ jobs:
       - name: npm install and build
         run: |
           while read -r cmd
-        do
+        do 
           eval sudo $cmd
         done < <(Rscript -e 'cat(remotes::system_requirements("ubuntu", "20.04"), sep = "\n")')
         env:
