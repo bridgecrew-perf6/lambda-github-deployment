@@ -25,6 +25,7 @@ jobs:  #Workflow run is made up of one or more jobs
         env:
           CI: true
         run: |
+          npm ci
           npm install 
       - name: deploy
         run: |
