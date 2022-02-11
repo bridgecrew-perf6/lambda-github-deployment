@@ -1,5 +1,5 @@
 {
-  "name": "storefriesguna",
+  "name": "lambdadeployment",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/gunaperumal/lambda-github-deployment.git"
   },
-  "keywords": [
-    "test"
-  ],
   "author": "guna",
   "license": "ISC",
   "bugs": {
@@ -20,7 +17,7 @@
   },
   "homepage": "https://github.com/gunaperumal/lambda-github-deployment#readme",
   "dependencies": {
-    "aws-sdk": "^2.1072.0",
+    "aws-sdk": "^2.1073.0",
     "axios": "^0.25.0",
     "bcryptjs": "^2.4.3",
     "chargebee": "^2.9.0",
