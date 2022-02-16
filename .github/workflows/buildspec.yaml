@@ -23,11 +23,19 @@ jobs:  #Workflow run is made up of one or more jobs
           aws-region: ap-south-1 #--> Define Region of the AWS-CLI 
       - name: npm install
         run: 
+<<<<<<< HEAD
           npm ci
+=======
+         npm ci
+>>>>>>> f496a1646d8c8a3784283f9f87b37583175781a9
         env:
           CI: true
       - name: deploy
         run: |
           zip -j deploy.zip ./* #--> Zip the Code As we know lambda function accept the zip file.
           aws lambda update-function-code --function-name=lambda-github-deployment --zip-file=fileb://deploy.zip 
+<<<<<<< HEAD
 # At last the AWS CLI command to Update the Zip file with existing One (With Correct Function Name)
+=======
+# At last the AWS CLI command to Update the Zip file with existing One (With Correct Function Name
+>>>>>>> f496a1646d8c8a3784283f9f87b37583175781a9
